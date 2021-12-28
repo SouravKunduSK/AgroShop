@@ -148,7 +148,9 @@
     <Compile Include="Controllers\Customer\MyCartController.cs" />
     <Compile Include="Controllers\Customer\MyOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Owner\DashboardController.cs" />
     <Compile Include="Controllers\Owner\ProductController.cs" />
+    <Compile Include="Controllers\Owner\SAccountController.cs" />
     <Compile Include="Database\AgroShopDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1776,6 +1778,9 @@
     <Content Include="Views\Product\Edit.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Shared\Product\Create.cshtml" />
+    <Content Include="Views\Shared\Product\Edit.cshtml" />
+    <Content Include="Views\Shared\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
