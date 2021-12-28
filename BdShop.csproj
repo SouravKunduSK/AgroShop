@@ -148,7 +148,9 @@
     <Compile Include="Controllers\Customer\MyCartController.cs" />
     <Compile Include="Controllers\Customer\MyOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Owner\CategoryController.cs" />
     <Compile Include="Controllers\Owner\DashboardController.cs" />
+    <Compile Include="Controllers\Owner\OrderController.cs" />
     <Compile Include="Controllers\Owner\ProductController.cs" />
     <Compile Include="Controllers\Owner\SAccountController.cs" />
     <Compile Include="Database\AgroShopDataModel.Context.cs">
@@ -221,6 +223,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Crypto.cs" />
+    <Compile Include="Models\TempShpData.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
