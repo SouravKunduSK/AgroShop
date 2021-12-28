@@ -138,9 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\BundleConfig2.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Customer\MyCartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Database\AgroShopDataModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -1748,9 +1750,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\Customer\" />
     <Folder Include="Controllers\Owner\" />
+    <Folder Include="Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\MyCart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
