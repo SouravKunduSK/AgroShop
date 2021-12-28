@@ -143,6 +143,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Customer\AccountController.cs" />
+    <Compile Include="Controllers\Customer\CheckOutController.cs" />
+    <Compile Include="Controllers\Customer\LoadDataController.cs" />
     <Compile Include="Controllers\Customer\MyCartController.cs" />
     <Compile Include="Controllers\Customer\MyOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1772,6 +1774,7 @@
     <Content Include="Views\Product\Create.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
