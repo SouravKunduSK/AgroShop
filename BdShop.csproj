@@ -146,6 +146,7 @@
     <Compile Include="Controllers\Customer\MyCartController.cs" />
     <Compile Include="Controllers\Customer\MyOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Owner\ProductController.cs" />
     <Compile Include="Database\AgroShopDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -215,6 +216,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1735,6 +1737,20 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Uploads\20210703_174217.jpg" />
+    <Content Include="Uploads\20210703_184242.jpg" />
+    <Content Include="Uploads\20210817_174819_02.jpg" />
+    <Content Include="Uploads\5a1c0c1917e116.3548668415117875450978.png" />
+    <Content Include="Uploads\5a1c7f2d243825.4697724415118170051484.png" />
+    <Content Include="Uploads\5a1d35f23d8006.0298174115118637942519.png" />
+    <Content Include="Uploads\5a230a6f98d253.009101081512245871626.png" />
+    <Content Include="Uploads\images.jpg" />
+    <Content Include="Uploads\IMG_20190327_173826.jpg" />
+    <Content Include="Uploads\kisspng-calabash-ivy-gourd-cucurbitaceae-fruit-5ae65ff8058b35.6270453515250472880227.png" />
+    <Content Include="Uploads\pngwing.com %2812%29.png" />
+    <Content Include="Uploads\pngwing.com %2833%29.png" />
+    <Content Include="Uploads\pngwing.com %285%29.png" />
+    <Content Include="Uploads\pngwing.com %286%29.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1753,12 +1769,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\Owner\" />
     <Folder Include="Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\MyCart\" />
   </ItemGroup>
   <ItemGroup>
