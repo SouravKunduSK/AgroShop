@@ -1798,6 +1798,12 @@
     <Content Include="Views\MyOrder\Details.cshtml" />
     <Content Include="Views\MyOrder\Index.cshtml" />
     <Content Include="Views\MyCart\Index.cshtml" />
+    <Content Include="Views\Category\Create.cshtml" />
+    <Content Include="Views\Category\Edit.cshtml" />
+    <Content Include="Views\Category\Index.cshtml" />
+    <Content Include="Views\Order\Details.cshtml" />
+    <Content Include="Views\Order\Edit.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
