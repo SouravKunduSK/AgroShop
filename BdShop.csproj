@@ -224,6 +224,7 @@
     </Compile>
     <Compile Include="Models\Crypto.cs" />
     <Compile Include="Models\TempShpData.cs" />
+    <Compile Include="Models\TopSoldProduct.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
