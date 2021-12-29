@@ -1786,6 +1786,7 @@
     <Content Include="Views\Shared\Product\Edit.cshtml" />
     <Content Include="Views\Shared\Product\Index.cshtml" />
     <Content Include="Views\Shared\_CartBox.cshtml" />
+    <Content Include="Views\CheckOut\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
