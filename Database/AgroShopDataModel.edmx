@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="BdShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="BdShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Category">
           <Key>
             <PropertyRef Name="CategoryID" />
@@ -209,6 +209,7 @@
           <Property Name="Modified" Type="datetime" />
           <Property Name="Notes" Type="nvarchar" MaxLength="255" />
           <Property Name="RoleType" Type="int" />
+          <Property Name="PassCode" Type="varchar(max)" />
         </EntityType>
         <EntityType Name="Wishlist">
           <Key>
@@ -561,8 +562,7 @@ warning 6002: The table/view 'AgroShop.dbo.getallorderusers' does not have a pri
             <End Role="Wishlist" EntitySet="Wishlist" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BdShopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -804,6 +804,7 @@ warning 6002: The table/view 'AgroShop.dbo.getallorderusers' does not have a pri
           <NavigationProperty Name="Reviews" Relationship="Self.FK__Review__UserID__5070F446" FromRole="User" ToRole="Review" />
           <NavigationProperty Name="Role" Relationship="Self.FK__User__RoleType__412EB0B6" FromRole="User" ToRole="Role" />
           <NavigationProperty Name="Wishlists" Relationship="Self.FK__Wishlist__UserID__4CA06362" FromRole="User" ToRole="Wishlist" />
+          <Property Name="PassCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Wishlist">
           <Key>
@@ -1348,6 +1349,7 @@ warning 6002: The table/view 'AgroShop.dbo.getallorderusers' does not have a pri
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="BdShopModel.User">
               <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="PassCode" ColumnName="PassCode" />
                 <ScalarProperty Name="UserID" ColumnName="UserID" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
