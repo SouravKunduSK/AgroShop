@@ -39,6 +39,7 @@ namespace BdShop.Database
         public Nullable<System.DateTime> Modified { get; set; }
         public string Notes { get; set; }
         public Nullable<int> RoleType { get; set; }
+        public string PassCode { get; set; }
     
         public virtual District District { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

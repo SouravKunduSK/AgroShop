@@ -223,6 +223,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Crypto.cs" />
+    <Compile Include="Models\SellerViewMoel.cs" />
     <Compile Include="Models\TempShpData.cs" />
     <Compile Include="Models\TopSoldProduct.cs" />
     <Compile Include="Models\UserViewModel.cs" />
@@ -1785,6 +1786,8 @@
     <Content Include="Views\Shared\Product\Create.cshtml" />
     <Content Include="Views\Shared\Product\Edit.cshtml" />
     <Content Include="Views\Shared\Product\Index.cshtml" />
+    <Content Include="Views\Shared\_CartBox.cshtml" />
+    <Content Include="Views\CheckOut\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
