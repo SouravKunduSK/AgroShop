@@ -31,7 +31,7 @@ namespace BdShop.Controllers.Customer
         }
 
 
-        //PLACE ORDER--LAST STEP
+        
         public ActionResult PlaceOrder(FormCollection getCheckoutDetails)
         {
 
